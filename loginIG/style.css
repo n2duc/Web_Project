@@ -1,0 +1,36 @@
+body {
+    background-color: #fafafa;
+    height: 100vh;
+    margin: 0px;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper .left {
+    height: 700px;
+    width: 430px;
+    background-image: url(https://www.instagram.com/static/images/homepage/phones/home-phones.png/1dc085cdb87d.png);
+    background-repeat: no-repeat;
+}
+
+.wrapper .left img {
+    position: relative;
+    top: 28px;
+    left: 155px;
+}
+
+.right .login-form {
+    display: flex;
+    flex-direction: column ;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: stretch;
+    justify-content: center;
+}
